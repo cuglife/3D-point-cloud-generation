@@ -8,7 +8,7 @@ SHAPENETPATH = sys.argv[-3]
 CATEGORY = sys.argv[-2]
 MODEL_LIST = sys.argv[-1]
 
-densifyN = 100000
+densifyN = 20000
 
 models = []
 with open(MODEL_LIST) as file:
